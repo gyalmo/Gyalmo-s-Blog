@@ -10,5 +10,4 @@ const Homepage = () => {
   <Link to="index">
   home </Link>
   </main>};
-};
 export default Homepage;
