@@ -26,6 +26,7 @@ We can organize our events as open for all and without any charges or registrati
 To avoid this , we will make sure people attending our events are familiar with the topics.
 If we keep these negative scenarios in our mind we can even encounter arguments, for that case the best thing would be to avoid arguments else we have to start with welcoming the disagreement, try to control the temper, listen first to the volunteer, further look for areas of agreements, be honest with them and promise to think over the opponents ideas, study them carefully and thank them for their interest and show them some respect on their opinion and not to make them realise that they are wrong. Even if we are wrong at any point of view we have to admit it quickly and empathetically.
   </p></>
-<Link to="About" > </Link>
+<Link to="About">
+  About </Link>
   </main>};
 export default Homepage;
