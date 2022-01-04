@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Link } from 'gatsby'
-const Homepage = () => {
+const about = () => {
   return <main>
     <><h1>Gyalmo's Blog!</h1>
   <h2>This is the about page</h2>
@@ -10,4 +10,4 @@ const Homepage = () => {
   <Link to="index">
   home </Link>
   </main>};
-export default Homepage;
+export default about;
