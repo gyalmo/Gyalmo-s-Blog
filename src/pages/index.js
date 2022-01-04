@@ -1,7 +1,9 @@
 import * as React from "react";
-
-const Homepage = () => {
-  return <><h1>Gyalmo's Blog!</h1>
+import { Link } from gatsby
+ const Homepage = () => {
+  return <main>
+    <title>Homepage </title>
+    <><h1>Gyalmo's Blog!</h1>
   <h2>Inclusion Analysis</h2>
   <p>Whether you’re a newbie or an expert in a community, when I say community I mean you can be a part of the community or leading it. Have a think who might be excluded in accessing your community activities in their current form? and why this might be. Let’s say some examples might include: people with jobs, people with caring responsibilities such as a child or another family member, wheelchair users, women and non-binary people, mature students. This is far from a complete list, but enough to get you started.
   Now when you’ve finally figured out the ones who may feel left out of the community it’s time to handle the negative scenarios.
@@ -24,5 +26,6 @@ We can organize our events as open for all and without any charges or registrati
 To avoid this , we will make sure people attending our events are familiar with the topics.
 If we keep these negative scenarios in our mind we can even encounter arguments, for that case the best thing would be to avoid arguments else we have to start with welcoming the disagreement, try to control the temper, listen first to the volunteer, further look for areas of agreements, be honest with them and promise to think over the opponents ideas, study them carefully and thank them for their interest and show them some respect on their opinion and not to make them realise that they are wrong. Even if we are wrong at any point of view we have to admit it quickly and empathetically.
   </p></>
-};
+<Link to="About" > </Link>
+  </main>};
 export default Homepage;
